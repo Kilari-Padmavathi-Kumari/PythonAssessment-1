@@ -31,7 +31,7 @@ pass_count=0
 fail_count=0
 for name,marks in students:  # get each student record like(enumerate(index,values))
     if marks >=50:           # check marks are greater than 50 or not
-        result[name]='pass'  # name as key and pass is value
+        result[name]='pass'  # name as key and pass Or fail is value  
         pass_count +=1        # increment
     else:
         result[name]='fail'
